@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"> 
+<body>
+    
+
+<div id="main">
+
+    <div align="center">
+  <input readonly type="text" name="" id="inp" align="center">
+    </div>
+  
+<div class="buttons" align="center">
+    <div>
+        <button type="button" class="btn" onclick="clrall()">C</button>
+        <button type="button" class="btn" onclick="db('%')">%</button>
+        <button type="button" class="btn" onclick="clr()">Del</button>
+        <button type="button" class="btn" onclick="db('/')">/</button>
+    </div>
+
+    <div>
+        <button type="button" class="btn" onclick="db(7)">7</button>
+        <button type="button" class="btn" onclick="db(8)">8</button>
+        <button type="button" class="btn" onclick="db(9)">9</button>
+        <button type="button" class="btn" onclick="db('*')">x</button>
+
+    </div>
+
+    <div>
+        <button type="button" class="btn" onclick="db(4)">4</button>
+        <button type="button" class="btn" onclick="db(5)">5</button>
+        <button type="button" class="btn" onclick="db(6)">6</button>
+        <button type="button" class="btn" onclick="db('-')">-</button>
+
+    </div>
+
+    <div>
+        <button type="button" class="btn" onclick="db(1)">1</button>
+        <button type="button" class="btn" onclick="db(2)">2</button>
+        <button type="button" class="btn" onclick="db(3)">3</button>
+        <button type="button" class="btn" onclick="db('+')">+</button>
+
+    </div>
+
+    <div>
+        <button type="button" class="btn" onclick="db(',')">,</button>
+        <button type="button" class="btn" onclick="db(0)">0</button>
+        <button type="button" class="btn" onclick="db('.')">.</button>
+        <button type="button" class="btn" onclick="eq()">=</button>
+
+    </div>
+</div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

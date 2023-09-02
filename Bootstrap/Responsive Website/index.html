@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAABECAMAAACMCVq7AAAAb1BMVEU6d/////8Zaf/k6v8TZ/8ibP8zdP/t8f/N2f9ymf8scP8mbv8vcv/3+f9ulv+Aov9okv9fjP9KgP9Zif9Qg/95nf/F0/+Ip//b4/+Xsv+Qrf+1yP9jj/9Fff/f5/+ctf/T3v+iuv+swf+8zf8AYf8TRLx+AAADfElEQVRYhe2Z25arIAyGAQUrYK2ttvbgTGv3+z/jxmNVAuiqnYtZ818i8hlIQkCE35FH0Ej+7DfRH/eP+5PcKPCUgugnucE1PhScKAmUbh/3H+EGj8LnknVDMcYpiQ3o9bheJjjSxEh6/SQ3CH2pU2uyQMePcUtuoNaioeZkq3CjG7VQlSTZfIDrIZuxrcmP1bl3ymDWSOS0MjcXM6hKYgR+m+s5lvYlel6Ti+ZMcgsexJOBG+zCTvEQlvXNYcPdul3qJRI4uYR14skLm8q+mdXc5+xZrsQSJ3cwHr91nQ8j41RDtAirZrpcwEXy0DTux3OqWi5ARraKL+EimejWVtxgZggNuOcl3Nri/dRxMT4vcapW0RIukruDFi8Yk2mTW+K6iKs2cW0I/DRMM+NKpl3xtowLCG/BlCHF7fv5LDMEf5UfvMuNwFa69ZohopJA39VOtDFvuKgS5VAf0UeoGkRzxeq9zMbFW0dk8hhdgS50gFUmQ4MUVi6+WcE8xOiiW8N2eKQjsFwssHKtFissRqHOJfmYi1O9D/+ycy0WV1iMDvqDYoLFDz2c6N3BNVosatdAhfag9ZmBNnowNbuwdd/fgcHfjg49OU25X7rPCzc3ArntngJx4yk31x3LzY0KMCGxtM7taK8/SaZcINbExsENTKWTLCowSgB/np4LMn3GRG7nGqytwZXFKAZi5DzGeoBncs/KNVpbg5XF6BtYfR6MuGDVF9m4kb0+VRYjMBkVw5k+A1sSa4omA9eBrcAI3LNk4fXYE7QTyouN694HVR0LJMHqoB3nlc1BycAopJv3uGrfv8A1BaPFIUm5Idm10f8OF0hGHRooixp1KW0uVwL1FdYztFP0vogrLrHmJEtPKZVab57LpcoJ4+mCqW7m1GIQOS7h0npRsonFGK4nbGL9UWsOlzYhhydTXTXp1bxV9MvFHSA67BRc91t0MKPf2MX9Rzv5PVaB/b6ZNufu64KzSneutHCjzUt4oEFze88AJkODIid3hrr7HLgYAjQqNle4v7JX2r3E6GZ2jfu67YypZnRcWq9yP3lxhjFPxwXBSvexR2JfZKIV1ivdA0eZ5ZJSFNPb2BXv2+8peNxVh3/yAN5e8f/CPeRiipZ0X0Ivr/s/JbjufMJlc6knJfWLy/SA+BFupfx6zm5Jctueyo3lF9Iv+l/2x/0V3P9wjy8Lto5chwAAAABJRU5ErkJggg==" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sell</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Catagories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#car">Car</a></li>
+                  <li><a class="dropdown-item" href="#mobile">Mobiles</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#clothe">Clothes</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Find Cars,Mobiles and more" aria-label="Search">
+              <button class="btn" type="button">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+       <!-- NAV BAR -->
+
+        <!-- CAROSUEL -->
+       <div id="carouselExampleFade" id="top" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://scontent.fkhi2-3.fna.fbcdn.net/v/t39.30808-6/302494181_5715634328468581_9195739171844362952_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=COYapIsPHMwAX856pVU&_nc_ht=scontent.fkhi2-3.fna&oh=00_AfCEGXivI4O6YObZU-KL4IPQ98PypH-bnQDYLtqFyezFfg&oe=64C84554" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://scontent.fkhi2-3.fna.fbcdn.net/v/t39.30808-6/298729875_5672414889457192_348123836181898123_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=19026a&_nc_ohc=np6UA_2ZvVoAX-i5sG-&_nc_ht=scontent.fkhi2-3.fna&oh=00_AfC7q3Cw9m-oWa4lK0er3br0E9_22WBkN-4_L0P6SnU21w&oe=64C92AB6" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://scontent.fkhi2-2.fna.fbcdn.net/v/t39.30808-6/202051848_4514243645274328_1084134741147377548_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=AkNfCvia9OoAX_zQDg3&_nc_ht=scontent.fkhi2-2.fna&oh=00_AfAJJyKmQEXaKK0Q1LWIkZX8Pm_HIpEEbv1LyaNqY70f7Q&oe=64C8310E" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ <!-- CAROSUEL -->
+
+ <!-- CARS -->
+ <br>
+ <h5 class="container-fluid" id="car">Cars</h5>
+ <div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+    <div class="col">
+      <div class="card">
+        <img src="./Assets/c1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Honda Cvic 2020</h5>
+          <p class="card-text">10/10 Condition Desiel Engine</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Assets/c2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Toyota Corolla 2020</h5>
+          <p class="card-text">10/10 Condition Desiel Engine</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Assets/c3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Honda Cvic 2020</h5>
+          <p class="card-text">10/10 Condition Desiel Engine</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./Assets/c4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Toyota Corolla 2020</h5>
+          <p class="card-text">10/10 Condition Desiel Engine</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="./Assets/c5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Toyota Corolla 2020</h5>
+          <p class="card-text">10/10 Condition Desiel Engine</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img src="./Assets/c6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Toyota Corolla 2020</h5>
+          <p class="card-text">10/10 Condition Desiel Engine</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- CARS -->
+
+<!-- MOBILES -->
+<br>
+<h5 class="container-fluid" id="mobile">Mobiles</h5>
+<div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/m1.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Iphone 14 Pro Max</h5>
+         <p class="card-text">10/10 Condition</p>
+       </div>
+     </div>
+   </div>
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/m2.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Iphone 14 Pro Max</h5>
+         <p class="card-text">10/10 Condition</p>
+       </div>
+     </div>
+   </div>
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/m3.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Iphone 14 Pro Max</h5>
+         <p class="card-text">10/10 Condition</p>
+       </div>
+     </div>
+   </div>
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/m4.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Iphone 14 Pro Max</h5>
+         <p class="card-text">10/10 Condition</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/m5.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Iphone 14 Pro Max</h5>
+         <p class="card-text">10/10 Condition</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/m6.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Iphone 14 Pro Max</h5>
+         <p class="card-text">10/10 Condition</p>
+       </div>
+     </div>
+   </div>
+ </div>
+<!-- MOBILES -->
+
+<!-- CLOTHES -->
+
+<br>
+<h5 class="container-fluid" id="clothe">Clothes</h5>
+<div class="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/h1.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Blue Hoddy</h5>
+         <p class="card-text">Soft Fabric</p>
+       </div>
+     </div>
+   </div>
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/h2.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Black Hoddy</h5>
+         <p class="card-text">Soft Fabric</p>
+       </div>
+     </div>
+   </div>
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/h3.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Grey Hoddy</h5>
+         <p class="card-text">Soft Fabric</p>
+       </div>
+     </div>
+   </div>
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/h4.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Black n White Hoddy</h5>
+         <p class="card-text">Soft Fabric</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/h5.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Brown n White Hoddy</h5>
+         <p class="card-text">Soft Fabric</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="col">
+     <div class="card">
+       <img src="./Assets/h6.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">Black n Brown Hoddy</h5>
+         <p class="card-text">Soft Fabric</p>
+       </div>
+     </div>
+   </div>
+ </div>
+<!-- CLOTHES -->
+<br><br>
+<!-- FOOTER -->
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="#top">Muhammad Hashir</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+nav{
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 100000 !important;
+   
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+
+.form-control{
+    width: 300px !important; 
+    border: 2px solid black !important;
+    
+}

@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo img{
+    width:100px;
+    padding: 20px;
+}
+
+.search input{
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 18px;
+
+}
+
+.bell{
+   padding-right: 200px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
